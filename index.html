@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+        }
+        td ,
+        th {
+            border:1px solid gray;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Digit</th>
+                <th>Salery</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tanjil</td>
+                <td>3</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rakib</td>
+                <td>7</td>
+                <td>1600</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Akash</td>
+                <td>1</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tarek</td>
+                <td>3</td>
+                <td>400</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+
+    <form action="#">
+
+       <p>
+        <label for="text">Name:</label>
+        <input type="text" id="text" name="text" placeholder="enter your name">
+
+       </p>
+       <p>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email">
+
+       </p>
+       <fieldset>
+
+        <legend>Seect your aria</legend>
+        <p><label for="radio"><input type="radio" id="radio" name="radio">Bangladesh</label></p>
+        <p><label for="radio1"><input type="radio" id="radio1" name="radio">India</label></p>
+        <p><label for="radio2"><input type="radio" id="radio2" name="radio">Pakistan</label></p>
+       </fieldset>
+
+       <fieldset>
+
+        <legend>Select your </legend>
+        <p><label for="player1"><input type="checkbox" name="select" id="player1">Sakib</label></p>
+        <p><label for="player2"><input type="checkbox" name="select" id="player2">Riad</label></p>
+        <p><label for="player3"><input type="checkbox" name="select" id="player3">Mushfiq</label></p>
+       </fieldset>
+
+
+    </form>
+
+
+</body>
+</html>
